@@ -5,7 +5,13 @@ public class Array
 
 	public static void main(String[] args) 
 	{
+		//Categories and Sub categories 
 		
+		//String [] mainCategories = {"Grocesories " , "Electronics"};
+		//String[] subcategories = {"Beverages","Snacks","Dairy Prodcuts","Produce"};
+		
+		
+		//Define a 3D array to store products 
 		
 		String[][][] supermarket = new String [2][4][5];
 		
@@ -43,30 +49,36 @@ public class Array
 		supermarket[0][3][4] = "Onions";
 		
 
-		/* These items are Category		 */
-		supermarket[1][0][0] = "";
-		supermarket[1][0][1] = "";
-		supermarket[1][0][2] = "";
-		supermarket[1][0][3] = "";
-		supermarket[1][0][4] = "";
+		/* These items are Electronics		 */
 		
-		supermarket[1][1][0] = "";
-		supermarket[1][1][1] = "";
-		supermarket[1][1][2] = "";
-		supermarket[1][1][3] = "";
-		supermarket[1][1][4] = "";
+		supermarket[1][0][0] = "Cola";
+		supermarket[1][0][1] = "Orange Juice";
+		supermarket[1][0][2] = "Lemonade";
+		supermarket[1][0][3] = "Green Tea";
+		supermarket[1][0][4] = "Black Coffee";
 		
-		supermarket[1][2][0] = "";
-		supermarket[1][2][1] = "";
-		supermarket[1][2][2] = "";
-		supermarket[1][2][3] = "";
-		supermarket[1][2][4] = "";
+		supermarket[1][1][0] = "Popcorn";
+		supermarket[1][1][1] = "Trail Mix";
+		supermarket[1][1][2] = "Rice Cakes";
+		supermarket[1][1][3] = "Beef Jerky";
+		supermarket[1][1][4] = "Salted Nuts";
 		
-		supermarket[1][3][0] = "";
-		supermarket[1][3][1] = "";
-		supermarket[1][3][2] = "";
-		supermarket[1][3][3] = "";
-		supermarket[1][3][4] = "";
+		supermarket[1][2][0] = "Cottage Cheese";
+		supermarket[1][2][1] = "Heavy Cream";
+		supermarket[1][2][2] = "Ice Cream";
+		supermarket[1][2][3] = "Parmesan Cheese";
+		supermarket[1][2][4] = "Eggnog";
+		
+		supermarket[1][3][0] = "Apples";
+		supermarket[1][3][1] = "Bananas";
+		supermarket[1][3][2] = "Carrots";
+		supermarket[1][3][3] = "Potatoes";
+		supermarket[1][3][4] = "Onions";
+		
+		System.out.println(supermarket[0][2][4]);
+		System.out.println(supermarket[1][3][4]);
+		
+		
 		
 	
 	}

@@ -37,9 +37,10 @@ public class HelloWorld {
 		
 		/* This is a Primitive data type - double*/
 		
-		double location=(37.7749 -122.4194);
+		double location1=37.7749;
+		double location2= -122.4194;
 		
-		System.out.println("Coordinates of a location (latitude, longitude)is :" +location);
+		System.out.println("Coordinates of a location (latitude, longitude)is :" +location1+";"+location2);
 		
 		/* This is a Primitive data type - boolean */
 		boolean status= false;
@@ -65,9 +66,9 @@ public class HelloWorld {
 		
 		/* This is a Primitive data type - long */
 		
-		long followers = 1000000L;
+		String followers = "1,000,000";
 		
-		System.out.println("11.Number of followers on a social media platform is:" +followers);
+		System.out.println("Number of followers on a social media platform is:" +followers);
 		
 		/* This is a Primitive data type - float */
 		
