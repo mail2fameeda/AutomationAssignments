@@ -20,7 +20,8 @@ public class Arrayof10Randomintegers
 		RandomNumber[7]=118;
 		RandomNumber[8]=119;
 		RandomNumber[9]=120;
-		
+	
+		System.out.println("Sum of the 3rd and 5th value is :" + (RandomNumber[2]+RandomNumber[4]) );
 		
 }
 
